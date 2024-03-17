@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tag">#B25763</color>
+    <color name="button">#B25763</color>
+    <color name="header">#FFD07B</color>
+    <color name="label">#D76D5B</color>
+    <color name="editText">#99C0FF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

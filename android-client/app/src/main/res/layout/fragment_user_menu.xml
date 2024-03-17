@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainHubActivity.UserMenuFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/helloUserText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Name,"
+        android:textColor="@color/tag"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:textAllCaps="false"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="user settings"
+        android:textColor="@color/header"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:textAllCaps="true" />
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+    <Button
+        android:id="@+id/changeUsernameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change username"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:textColor="@color/button"
+        app:drawableTint="@color/button"
+        android:background="@android:color/transparent"
+        />
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/changePasswordBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change password"
+        android:textColor="@color/button"
+        app:drawableTint="@color/button"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:background="@android:color/transparent"
+        />
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment options"
+        android:textColor="@color/header"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:textAllCaps="true" />
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+    <Button
+        android:id="@+id/paymentMethodBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="manage payment method"
+        android:textColor="@color/button"
+        app:drawableTint="@color/button"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:background="@android:color/transparent"
+        />
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+    <Button
+        android:id="@+id/biometricAuthBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add biometric Auth"
+        android:textColor="@color/button"
+        app:drawableTint="@color/button"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:background="@android:color/transparent"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/logOutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        app:backgroundTint="@color/button"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+
+</LinearLayout>

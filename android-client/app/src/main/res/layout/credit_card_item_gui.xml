@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Activities.MainHubActivity.UserMenuFragment"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/creditCardButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:text="**********1234 08/20"
+        app:drawableTint="@color/button"
+        android:textColor="@color/label" />
+
+    <LinearLayout
+        android:id="@+id/creditCardOptionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/deleteCardBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8px"
+            android:layout_marginEnd="8px"
+            android:text="Delete"
+            app:backgroundTint="@color/button"
+            />
+    </LinearLayout>
+
+    <!-- Horizontal line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+
+
+</LinearLayout>

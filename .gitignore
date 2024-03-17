@@ -1,0 +1,41 @@
+# Ignore Gradle build files
+.gradle/
+/build/
+
+# Ignore local configuration file (sdk path, etc)
+local.properties
+
+# Ignore generated files
+*.iml
+.idea/
+.gradle/
+/captures/
+
+# Ignore Android Studio configuration files
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/gradle.xml
+/.idea/dictionaries
+
+# Ignore CMake build directory
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+compile_commands.json
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore compiled binaries
+*.so
+*.dll
+*.exe
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore generated files by CMake
+CMakeLists.txt.user
+
+# Ignore compiled files
+bin/
